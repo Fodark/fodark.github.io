@@ -16,7 +16,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hello there! I am Nicola Dall'Asen and I am a PhD student in the Italian National Artificial Intelligence program, supervised by [Elisa Ricci](https://elisaricci.eu) and [Yiming Wang](http
+Hello there! I am Nicola Dall'Asen and I am a PhD student in the Italian National Artificial Intelligence program, supervised by [Elisa Ricci](https://eliricci.eu) and [Yiming Wang](https://www.yimingwang.it/)
 
 My research interest lies in the topic of generative models (in particular Diffusion Models and GANs) for entertainment and privacy-preserving applications. It has been the natural continu
 
