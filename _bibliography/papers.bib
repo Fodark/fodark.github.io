@@ -3,91 +3,88 @@
 
 @string{aps = {American Physical Society,}}
 
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
+@inproceedings{tonini2023object,
+  abbr        = {ICCV},
+  bibtex_show = {true},
+  title       = {Object-aware Gaze Target Detection},
+  author      = {Francesco Tonini and Dall'Asen, Nicola and Cigdem Beyan and Elisa Ricci},
+  booktitle   = {International Conference on Computer Vision (ICCV)},
+  year        = {2023},
+  abstract    = {Gaze target detection aims to predict the image location where the person is looking and the probability that a gaze is out of the scene. Several works have tackled this task by regressing a gaze heatmap centered on the gaze location, however, they overlooked decoding the relationship between the people and the gazed objects. This paper proposes a Transformer-based architecture that automatically detects objects (including heads) in the scene to build associations between every head and the gazed-head/object, resulting in a comprehensive, explainable gaze analysis composed of: gaze target area, gaze pixel point, the class and the image location of the gazed-object. Upon evaluation of the in-the-wild benchmarks, our method achieves state-of-the-art results on all metrics (up to 2.91\% gain in AUC, 50\% reduction in gaze distance, and 9\% gain in out-of-frame average precision) for gaze target detection and 11-13\% improvement in average precision for the classification and the localization of the gazed-objects.},
+  pdf         = {tonini_iccv2023.pdf},
+  selected    = {true},
+  arxiv       = {2307.09662},
+  code        = {https://github.com/francescotonini/object-aware-gaze-target-detection}
 }
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+@inproceedings{tur2023compact,
+  abbr        = {ICIAP},
+  bibtex_show = {true},
+  title       = {Unsupervised Video Anomaly Detection with Diffusion Models Conditioned on Compact Motion Representations},
+  author      = {*Anil Osman Tur and Dall'Asen, *Nicola and Cigdem Beyan and Elisa Ricci},
+  booktitle   = {22nd International Conference on Image analysis and Processing (ICIAP)},
+  year        = {2023},
+  abstract    = {This paper aims to address the unsupervised video anomaly detection (VAD) problem, which involves classifying each frame in a video as normal or abnormal, without any access to labels. To accomplish this, the proposed method employs conditional diffusion models, where the input data is the spatiotemporal features extracted from a pre-trained network, and the condition is the features extracted from compact motion representations that summarize a given video segment in terms of its motion and appearance. Our method utilizes a data-driven threshold and considers a high reconstruction error as an indicator of anomalous events. This study is the first to utilize compact motion representations for VAD and the experiments conducted on two large-scale VAD benchmarks demonstrate that they supply relevant information to the diffusion model, and consequently improve VAD performances \textit{w.r.t} the prior art. Importantly, our method exhibits better generalization performance across different datasets, notably outperforming both the state-of-the-art and baseline methods.},
+  pdf         = {star_representation.pdf},
+  selected    = {true},
+  arxiv       = {2307.01533},
+  code        = {https://github.com/AnilOsmanTur/conditioned_video_anomaly_diffusion}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+@inproceedings{tur2023uvad,
+  abbr        = {ICIP},
+  bibtex_show = {true},
+  title       = {Exploring Diffusion Models for Unsupervised Video Anomaly Detection},
+  author      = {{Anil Osman Tur} and Dall'Asen, Nicola and {Cigdem Beyan} and {Elisa Ricci}},
+  booktitle   = {International Conference on Image Processing (ICIP)},
+  year        = {2023},
+  abstract    = {This paper investigates the performance of diffusion models for video anomaly detection (VAD) within the most challenging but also the most operational scenario in which the data annotations are not used. As being sparse, diverse, contextual, and often ambiguous, detecting abnormal events precisely is a very ambitious task. To this end, we rely only on the information-rich spatio-temporal data, and the reconstruction power of the diffusion models such that a high reconstruction error is utilized to decide the abnormality. Experiments performed on two large-scale video anomaly detection datasets demonstrate the consistent improvement of the proposed method over the state-of-the-art generative models while in some cases our method achieves better scores than the more complex models. This is the first study using a diffusion model and examining its parameters' influence to present guidance for VAD in surveillance scenarios.},
+  pdf         = {2304.05841.pdf},
+  selected    = {false},
+  arxiv       = {2304.05841},
+  code        = {https://github.com/AnilOsmanTur/video_anomaly_diffusion}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  selected={true}
+@inproceedings{Bajo2109:MARVEL,
+  abbr        = {BalkanCom},
+  bibtex_show = {true},
+  title       = {{MARVEL:} Multimodal Extreme Scale Data Analytics for Smart Cities Environments},
+  author      = {Nicola Dall'Asen and et al.},
+  year        = 2021,
+  month       = sep,
+  booktitle   = {2021 International Balkan Conference on Communications and Networking (BalkanCom)},
+  address     = {Novi Sad, Serbia},
+  days        = 19,
+  abstract    = {A Smart City based on data acquisition, handling and intelligent analysis requires efficient design and implementation of the respective AI technologies and the underlying infrastructure for seamlessly analyzing the large amounts of data in real-time. The EU project MARVEL will research solutions that can improve the integration of multiple data sources in a Smart City environment for harnessing the advantages rooted in multimodal perception of the surrounding environment.},
+  pdf         = {marvel.pdf},
+  selected    = {false}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@inproceedings{dallasen2021graphbased,
+  abbr        = {ICIAP},
+  bibtex_show = {true},
+  title       = {Graph-based Generative Face Anonymisation with Pose Preservation},
+  author      = {Nicola Dall'Asen and {Yiming Wang} and {Hao Tang} and {Luca Zanella} and {Elisa Ricci}},
+  booktitle   = {21st International Conference on Image analysis and Processing (ICIAP)},
+  year        = {2022},
+  abstract    = {We propose AnonyGAN, a GAN-based solution for face anonymisation which replaces the visual information corresponding to a source identity with a condition identity provided as any single image. With the goal to maintain the geometric attributes of the source face, i.e., the facial pose and expression, and to promote more natural face generation, we propose to exploit a Bipartite Graph to explicitly model the relations between the facial landmarks of the source identity and the ones of the condition identity through a deep model. We further propose a landmark attention model to relax the manual selection of facial landmarks, allowing the network to weight the landmarks for the best visual naturalness and pose preservation. Finally, to facilitate the appearance learning, we propose a hybrid training strategy to address the challenge caused by the lack of direct pixel-level supervision. We evaluate our method and its variants on two public datasets, CelebA and LFW, in terms of visual naturalness, facial pose preservation and of its impacts on face detection and re-identification. We prove that AnonyGAN significantly outperforms the state-of-the-art methods in terms of visual naturalness, face detection and pose preservation.},
+  pdf         = {2112.05496.pdf},
+  selected    = {true},
+  arxiv       = {2112.05496},
+  code        = {https://github.com/Fodark/anonygan}
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
+@inproceedings{zanella2022italia,
+  abbr        = {Ital-IA},
+  bibtex_show = {true},
+  title       = {Responsible AI at the edge: towards privacy-preserving smart cities},
+  author      = {{Luca Zanella} and {Yiming Wang} and Nicola Dall'Asen and {Alberto Ancilotto} and {Francesco Paissan} and {Elisa Ricci} and {Elisabetta Farella} and {Alessio Brutti} and {Marco Pistore}},
+  booktitle   = {Ital-IA 2022 Convegno del Laboratorio nazionale CINI-AIIS},
+  year        = 2022,
+  abstract    = {With the massive amount of data produced by ambient environmental sensors, many AI-based solutions are emerging to support new smart cities&rsquo; applications. However, these data may contain sensitive personal information, calling for responsible AI solutions. FBK proposes a privacy-preserving subsystem with a set of technological components that enable responsible AI and prevent unauthorised usage of personal data at the data storage and during data transmission under the context of Smart Cities. We demonstrate the proposed solution under an EU project MARVEL, where both video and audio anonymisation components are deployed at the edge level, enabled by a model compression component for complexity reduction. We discuss each component&rsquo;s technical challenges, current progress, and future directions.},
+  month       = {Feb},
+  publisher   = {Zenodo},
+  doi         = {10.5281/zenodo.5960431},
+  pdf         = {zanella2022italia.pdf},
+  selected    = {false}
 }
