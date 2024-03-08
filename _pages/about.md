@@ -20,7 +20,7 @@ Hello there! I am Nicola Dall'Asen and I am a PhD student in the Italian Nationa
 
 My research interest lies in the topic of generative models (in particular Diffusion Models and GANs) for entertainment and privacy-preserving applications. It has been the natural continu
 
-Beside research, I am a huge nerd: books, comics, TV series and videogames... when I'm not reading papers...
+Beside research, I am a huge nerd: books, comics, TV series and videogames.
 
 During my studies I fell in love with the Linux and OSS world, as it strives to foster an equal view of the world.
 
