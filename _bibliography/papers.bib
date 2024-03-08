@@ -3,6 +3,34 @@
 
 @string{aps = {American Physical Society,}}
 
+@inproceedings{turrisi_dallasen2023disef,
+  abbr        = {Preprint},
+  bibtex_show = {true},
+  title       = {Diversified in-domain synthesis with efficient fine-tuning for few-shot classification},
+  author      = {*Victor G Turrisi da Costa and Dall'Asen, *Nicola and Yiming Wang and Nicu Sebe and Elisa Ricci},
+  booktitle   = {Arxiv},
+  year        = {2023},
+  abstract    = {Few-shot image classification aims to learn an image classifier using only a small set of labeled examples per class. A recent research direction for improving few-shot classifiers involves augmenting the labelled samples with synthetic images created by state-of-the-art text-to-image generation models. Following this trend, we propose Diversified in-domain synthesis with efficient fine-tuning (DISEF), a novel approach which addresses the generalization challenge in few-shot learning using synthetic data. DISEF consists of two main components. First, we propose a novel text-to-image augmentation pipeline that, by leveraging the real samples and their rich semantics coming from an advanced captioning model, promotes in-domain sample diversity for better generalization. Second, we emphasize the importance of effective model fine-tuning in few-shot recognition, proposing to use Low-Rank Adaptation (LoRA) for joint adaptation of the text and image encoders in a Vision Language Model. We validate our method in ten different benchmarks, consistently outperforming baselines and establishing a new state-of-the-art for few-shot classification.},
+  pdf         = {2312.03046v2.pdf},
+  selected    = {false},
+  arxiv       = {2312.03046},
+  code        = {https://github.com/vturrisi/disef}
+}
+
+@inproceedings{dallasen2023cnp,
+  abbr        = {Preprint},
+  bibtex_show = {true},
+  title       = {Collaborative Neural Painting},
+  author      = {Dall'Asen, Nicola and Willi Menapace and Elia Peruzzo and Enver Sangineto and Yiming Wang and Elisa Ricci},
+  booktitle   = {Arxiv},
+  year        = {2023},
+  abstract    = {The process of painting fosters creativity and rational planning. However, existing generative AI mostly focuses on producing visually pleasant artworks, without emphasizing the painting process. We introduce a novel task, Collaborative Neural Painting (CNP), to facilitate collaborative art painting generation between humans and machines. Given any number of user-input brushstrokes as the context or just the desired object class, CNP should produce a sequence of strokes supporting the completion of a coherent painting. Importantly, the process can be gradual and iterative, so allowing users' modifications at any phase until the completion. Moreover, we propose to solve this task using a painting representation based on a sequence of parametrized strokes, which makes it easy both editing and composition operations. These parametrized strokes are processed by a Transformer-based architecture with a novel attention mechanism to model the relationship between the input strokes and the strokes to complete. We also propose a new masking scheme to reflect the interactive nature of CNP and adopt diffusion models as the basic learning process for its effectiveness and diversity in the generative field. Finally, to develop and validate methods on the novel task, we introduce a new dataset of painted objects and an evaluation protocol to benchmark CNP both quantitatively and qualitatively. We demonstrate the effectiveness of our approach and the potential of the CNP task as a promising avenue for future research.},
+  pdf         = {2312.01800.pdf},
+  selected    = {false},
+  arxiv       = {2312.01800},
+  code        = {}
+}
+
 @inproceedings{tonini2023object,
   abbr        = {ICCV},
   bibtex_show = {true},
