@@ -16,14 +16,14 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hello there! I am Nicola Dall'Asen and I am a PhD student in the Italian National Artificial Intelligence program, supervised by [Elisa Ricci](https://eliricci.eu) and [Yiming Wang](https://www.yimingwang.it/)
+Hello there! I am Nicola Dall'Asen and I am a PhD student in the Italian National Artificial Intelligence program, supervised by [Elisa Ricci](https://eliricci.eu) and [Yiming Wang](https://www.yimingwang.it/).
 
-My research interest lies in the topic of generative models (in particular Diffusion Models and GANs) for entertainment and privacy-preserving applications. It has been the natural continu
+My research interest lies in the topic of generative models (in particular Diffusion Models and GANs) for entertainment and privacy-preserving applications. It has been the natural continuation of my work during the internship in [Fondazione Bruno Kessler](https://dvl.fbk.eu), in the Deep Visual Learning Lab. The resulting model became my first publication, "*Graph-based Generative Face Anonymisation with Pose Preservation*", which you can check out [here](/publications)!
 
 Beside research, I am a huge nerd: books, comics, TV series and videogames.
 
 During my studies I fell in love with the Linux and OSS world, as it strives to foster an equal view of the world.
 
-Contact me through the social below or at `nicola [dot] dallasen [at] unitn [dot] it`
+Contact me through the socials below or at `nicola [dot] dallasen [at] gmail [dot] com`
 
 <hr/>
