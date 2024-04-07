@@ -106,7 +106,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 
 blog_name: Kangae # blog_name will be displayed in your blog page
 blog_description: Knowledge comes before speech and action
-permalink: /blog/:year/:title/
+permalink: /blog/:year/:month/:day/:title/
 
 # Pagination
 pagination:
