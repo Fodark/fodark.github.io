@@ -22,8 +22,6 @@ My research interest lies in the topic of generative models (in particular Diffu
 
 Beside research, I am a huge nerd: books, comics, TV series and videogames.
 
-During my studies I fell in love with the Linux and OSS world, as it strives to foster an equal view of the world.
-
 Contact me through the socials below or at `nicola [dot] dallasen [at] gmail [dot] com`
 
 <hr/>
