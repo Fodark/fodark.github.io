@@ -109,6 +109,10 @@ div.list-group {
   margin-bottom: 2rem;
 }
 
+li.list-group-item {
+  padding: inherit;
+}
+
 td.list-group-category {
   color: var(--global-theme-color);
   margin-bottom: 0.5rem;
