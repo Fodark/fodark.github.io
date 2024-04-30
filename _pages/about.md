@@ -6,10 +6,9 @@ subtitle: Ph.D. candidate in Artificial Intelligence @ University of Trento and 
 
 profile:
   align: right
-  image: propic_ai.png
+  image: 
   image_circular: true # crops the image to make it circular
-  more_info: >
-    in a galaxy far, far away...
+  more_info: 
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
