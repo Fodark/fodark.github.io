@@ -11,12 +11,14 @@
   "work": [
     {
       "name": "Meta Inc. - FAIR Labs",
-      "position": "Ph.D. Intern",
+      "position": "Research Scientist Intern",
       "url": "",
       "startDate": "2024-09-01",
       "endDate": "2025-02-28",
       "summary": "",
-      "highlights": ["Generative"]
+      "highlights": [
+        "Generative"
+      ]
     },
     {
       "name": "University of Trento",
@@ -25,7 +27,9 @@
       "startDate": "2023-02-01",
       "endDate": "2023-09-30",
       "summary": "Theoretical and practical lessons on classical machine learning and deep learning.",
-      "highlights": ["Teaching"]
+      "highlights": [
+        "Teaching"
+      ]
     },
     {
       "name": "Fondazione Bruno Kessler",
@@ -34,7 +38,9 @@
       "startDate": "2021-03-01",
       "endDate": "2021-10-31",
       "summary": "Development of Generative models for face anonymisation.",
-      "highlights": ["Generative"]
+      "highlights": [
+        "Generative"
+      ]
     }
   ],
   "volunteer": [],
@@ -59,7 +65,12 @@
       "startDate": "2019-09-01",
       "endDate": "2021-10-31",
       "score": "110/110 cum laude",
-      "courses": ["Machine Learning", "Deep Learning", "Big Data Technologies", "Statistical Learning"]
+      "courses": [
+        "Machine Learning",
+        "Deep Learning",
+        "Big Data Technologies",
+        "Statistical Learning"
+      ]
     },
     {
       "institution": "University of Trento, Italy",
@@ -70,7 +81,11 @@
       "startDate": "2016-09-01",
       "endDate": "2019-07-31",
       "score": "102/110",
-      "courses": ["Introduction to Machine Learning", "Software Engineering", "Algorithms and Data Structures"]
+      "courses": [
+        "Introduction to Machine Learning",
+        "Software Engineering",
+        "Algorithms and Data Structures"
+      ]
     }
   ],
   "awards": [
