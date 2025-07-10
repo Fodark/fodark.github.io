@@ -21,7 +21,7 @@ My research interest lies in generative models (in particular Diffusion Models a
 
 I spent my period abroad at FAIR in Montreal, where I worked with Michal Drozdzal and Adriana Romero Soriano on Diffusion and Flow Matching models for image generation.
 
-Beside research, I am enjoy reading books and comics, racing on karts, and playing video games.
+Beside research, I enjoy reading books and comics, racing on karts, and playing video games.
 
 Contact me through the socials below or at `nicola [dot] dallasen [at] gmail [dot] com`
 
