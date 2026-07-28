@@ -15,7 +15,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hello there! I am Nicola Dall'Asen and I am a Research Scientist in the Creative Vision team at SB Intutions in Tokyo. I hold a PhD from the Italian National Artificial Intelligence program, where I was supervised by [Elisa Ricci](https://eliricci.eu) and [Yiming Wang](https://www.yimingwang.it/).
+Hello there! I am Nicola Dall'Asen and I am a Research Scientist in the Creative Vision team at SB Intuitions in Tokyo. I hold a PhD from the Italian National Artificial Intelligence program, where I was supervised by [Elisa Ricci](https://eliricci.eu) and [Yiming Wang](https://www.yimingwang.it/).
 
 My research interest lies in generative models (in particular Diffusion Models and Flow Matching), applied in (almost) every task. It has been the natural continuation of my work during the internship in [Fondazione Bruno Kessler](https://dvl.fbk.eu), in the Deep Visual Learning Lab. The resulting model became my first publication, "*Graph-based Generative Face Anonymisation with Pose Preservation*", which you can check out [here](/publications)!
 
